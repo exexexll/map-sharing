@@ -1,0 +1,10 @@
+{
+    "name": "map-sharing",
+    "version": "1.0.0",
+    "scripts": {
+      "start": "cd client && npm start",
+      "build": "cd client && npm install && npm run build",
+      "start:backend": "cd backend && npm start",
+      "install:all": "npm install && cd client && npm install && cd ../backend && npm install"
+    }
+  }
