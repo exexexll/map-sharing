@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
-const Comment = require('./models/Comment');
+const Comment = require('../client/Comment');
 const chatRoutes = require('./chat');
 const { createProxyMiddleware } = require('http-proxy-middleware');
 
