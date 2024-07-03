@@ -4,17 +4,17 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "heroku-postbuild": "cd ../frontend && npm install && npm run build"
+    "heroku-postbuild": "cd ../client && npm install && npm run build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "axios": "^1.7.2",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "mongoose": "^6.0.14",
+    "bcrypt": "^5.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "http-proxy-middleware": "^1.0.6"
   },
   "engines": {
     "node": "14.x"
